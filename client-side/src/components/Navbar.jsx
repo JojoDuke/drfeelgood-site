@@ -4,10 +4,11 @@ function Navbar() {
   
     return (
         <nav className="bg-gray-900 p-4 flex items-center justify-between">
-        {/* Logo */}
-        <div className="text-white">
-
-        </div>
+            
+            {/* Logo */}
+            <div className="text-white">
+                <p>LOGO</p>
+            </div>
   
         {/* Navigation Links */}
         <div className="text-white text-lg">
@@ -22,7 +23,7 @@ function Navbar() {
         </div>
   
         {/* Sign In and Sign Up Buttons */}
-        <div className="space-x-2">
+        <div className="space-x-2 flex flex-row">
           <button className="border border-white text-white rounded-full px-4 py-1">LOG IN</button>
           <button className="border border-white text-white rounded-full px-4 py-1">SIGN UP</button>
         </div>
