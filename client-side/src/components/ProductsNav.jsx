@@ -39,8 +39,8 @@ function ProductsNav() {
           </li>
           <li className="text-center flex flex-col items-center justify-center">
             <a href="/products">
-              <div className="flex flex-col items-center">
-                <img className=" mb-4 mx-auto" src={vapes} alt="vapes image" />
+              <div className="flex flex-col items-center mt-2">
+                <img className=" mb-3 mx-auto" src={vapes} alt="vapes image" />
                 <span className='mt-1'>VAPES</span>
               </div>
             </a>
@@ -57,7 +57,7 @@ function ProductsNav() {
             <a href="/products">
               <div className="flex flex-col items-center">
                 <img className="pb-2 mx-auto" src={preRolls} alt="pre-rolls image" />
-                <span>PRE-ROLLS</span>
+                <span className='mb-2'>PRE-ROLLS</span>
               </div>
             </a>
           </li>

@@ -25,8 +25,8 @@ function Navbar() {
 
       {/* Sign In and Sign Up Buttons */}
       <div className="space-x-2 flex flex-row">
-        <button className="border border-white text-white rounded-full px-5 py-2">LOG IN</button>
-        <button className="border border-white text-white rounded-full px-5 py-2">SIGN UP</button>
+        <button className="border border-white text-white rounded-full px-5 py-2 hover:text-green-300">LOG IN</button>
+        <button className="border border-white text-white rounded-full px-5 py-2 hover:text-green-300">SIGN UP</button>
       </div>
     </nav>
   );
