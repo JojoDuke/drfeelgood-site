@@ -3,7 +3,7 @@ import { useState } from 'react'
 function Navbar() {
   
     return (
-        <nav className="bg-gray-900 p-4 flex items-center justify-between">
+        <nav className="bg-gray-900 p-8 flex items-center justify-between">
             
             {/* Logo */}
             <div className="text-white">
@@ -11,8 +11,8 @@ function Navbar() {
             </div>
   
         {/* Navigation Links */}
-        <div className="text-white text-lg">
-          <ul className="flex space-x-4">
+        <div className="text-white text-md text-center flex justify-center items-center">
+          <ul className="flex justify-center items-center space-x-4">
             <li>PRODUCTS</li>
             <li>BRANDS</li>
             <li>DELIVERY MAP</li>
