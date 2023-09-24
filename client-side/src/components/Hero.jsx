@@ -12,25 +12,30 @@ function Hero() {
 
         {/* Delivery And Pickup */}
         <div className='flex flex-row justify-center items-center gap-10 mb-20'>
-          <div className='h-[600px] w-[400px] bg-[#54B5D5] rounded-md flex flex-col justify-center items-center'>
+          <div className='h-[600px] w-[400px] bg-[#54B5D5] rounded-md flex flex-col justify-center items-center hover:bg-[#88d6f0] transition duration-300 ease-in-out cursor-pointer'>
             <img src={delivery} alt="truck-icon" />
             <p className='text-white text-[20px] font-bold mt-12'>DELIVERY</p>
           </div>
-          <div className='h-[600px] w-[400px] bg-[#BE63DA] rounded-md flex flex-col justify-center items-center'>
-            <img src={shop} alt="truck-icon" />
+          <div className='h-[600px] w-[400px] bg-[#BE63DA] rounded-md flex flex-col justify-center items-center hover:bg-[#D893F5] transition duration-300 ease-in-out cursor-pointer'>
+            <img src={shop} alt="shop-icon" />
             <p className='text-white text-[20px] font-bold mt-12'>PICK-UP</p>
           </div>
         </div>
 
         {/* MainLogo */}
         <img src={mainLogo} alt="main logo" width="250px" height="250px"/>
-        <h1 className="text-white text-[24px] mt-20">Featured In</h1>
+        <h1 className="text-white text-[24px] mt-20 mb-12">Featured In</h1>
 
         {/* Featured In */}
-        <img src={features} alt="main logo" width="200px" height="200px"/>
+        <img src={features} alt="main logo" width="800px"/>
 
         {/* The Rest */}
-        <p>P</p>
+        <h1 className="text-white text-[24px] mt-20 mb-12">See all the ways to enjoy your cannabis</h1>
+        <div className='flex flex-col justify-center items-center'>
+          <div>
+            FLOWERS
+          </div>
+        </div>
       </div>
     </div>
   )
