@@ -3,6 +3,7 @@ import delivery from '../assets/delivery.png';
 import shop from '../assets/shop.png';
 import features from '../assets/features.png';
 import mainLogo from '../assets/main-logo.png';
+import newDrops from '../assets/new-drops.png';
 
 function Hero() {
   return (
@@ -31,11 +32,31 @@ function Hero() {
 
         {/* The Rest */}
         <h1 className="text-white text-[24px] mt-20 mb-12">See all the ways to enjoy your cannabis</h1>
-        <div className='flex flex-col justify-center items-center'>
-          <div>
-            FLOWERS
+        
+        <div className='flex flex-col justify-center items-center gap-5'>
+          <div className='bg-white cursor-pointer rounded w-[400px] py-6'>
+            <p className='font-bold text-[22px]'>FLOWERS</p>
+          </div>
+          <div className='bg-white cursor-pointer rounded w-[400px] py-6'>
+            <p className='font-bold text-[22px]'>EDIBLES</p>
+          </div>
+          <div className='bg-white cursor-pointer rounded w-[400px] py-6'>
+            <p className='font-bold text-[22px]'>VAPES</p>
+          </div>
+          <div className='bg-white cursor-pointer rounded w-[400px] py-6'>
+            <p className='font-bold text-[22px]'>CONCENTRATES</p>
+          </div>
+          <div className='bg-white cursor-pointer rounded w-[400px] py-6'>
+            <p className='font-bold text-[22px]'>PRE-ROLLS</p>
+          </div>
+          <div className='bg-white cursor-pointer rounded w-[400px] py-6'>
+            <p className='font-bold text-[22px]'>ACCESSORIES</p>
           </div>
         </div>
+
+        <h1 className="text-white text-[24px] mt-20 mb-24">New Drops</h1>
+
+        <img src={newDrops} alt="new-drops image" width="1000px"/>
       </div>
     </div>
   )
