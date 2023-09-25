@@ -10,9 +10,9 @@ import merchandise from '../assets/pNav-icons/merch.png';
 
 function ProductsNav() {
   return (
-    <div>
+    <div className='w-full'>
       <div className="mt-12 text-white text-md text-center">
-        <ul className="flex space-x-7 justify-center">
+        <ul className="grid grid-cols-2 gap-y-[50px] sm:grid-cols-4 lg:flex lg:space-x-7 lg:justify-center ">
           <li className="text-center flex flex-col items-center justify-center">
             <a href="/products">
               <div className="flex flex-col items-center">
